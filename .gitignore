@@ -216,3 +216,23 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# ERIP Power BI binary files
+*.pbix
+*.pbit
+
+# ERIP raw and private data
+Source Files/
+data/raw/
+*.parquet
+*.delta
+
+# Private backups and archives
+ERIP_Private_Backup*/
+*.zip
+
+# Credentials and keys
+*.key
+*.secret
+credentials.*
